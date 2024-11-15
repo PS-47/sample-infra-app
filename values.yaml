@@ -1,0 +1,17 @@
+image:
+  repository: PS-47/sample-app
+  tag: latest
+
+service:
+  type: ClusterIP
+  port: 3000
+
+serviceAccount:
+  create: true
+
+ingress:
+  enabled: false  
+
+autoscaling:
+  enabled: false  
+  
